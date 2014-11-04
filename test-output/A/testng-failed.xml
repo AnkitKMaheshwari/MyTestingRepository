@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [A]">
+  <parameter name="browser" value="firefox"/>
+  <test name="FirefoxTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="selenium.Selenium2Test2">
+        <methods>
+          <include name="beforExcel"/>
+          <include name="afterExcel"/>
+          <include name="irctcFligt"/>
+        </methods>
+      </class> <!-- selenium.Selenium2Test2 -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [A] -->

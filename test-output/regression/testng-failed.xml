@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [regression]">
+  <test name="FirefoxTest(failed)">
+    <classes>
+      <class name="selenium.Selenium2Test1">
+        <methods>
+          <include name="meth4"/>
+          <include name="meth5"/>
+          <include name="meth6"/>
+          <include name="meth7"/>
+          <include name="print1"/>
+          <include name="testUntitled2"/>
+          <include name="meth1"/>
+          <include name="meth2"/>
+          <include name="print"/>
+          <include name="meth3"/>
+          <include name="meth8"/>
+        </methods>
+      </class> <!-- selenium.Selenium2Test1 -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [regression] -->

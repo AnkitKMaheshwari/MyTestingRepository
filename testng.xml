@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="A">
+<test name="FirefoxTest">
+<parameter name="browser" value="firefox" />
+<classes>
+<class name="selenium.Selenium2Test2"></class>
+</classes>
+</test>
+
+
+ 
+</suite>
+
